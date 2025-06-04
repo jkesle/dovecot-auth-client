@@ -1,6 +1,9 @@
 {
   "name": "dovecot-auth",
   "version": "0.1.0",
+  "bugs": {
+    "url": "https://github.com/jkesle/dovecot-auth-client/issues"
+  },
   "description": "Dovecot authentication socket protocol client for Node",
   "main": "./dist/index.cjs",
   "module": "./dist/index.js",
