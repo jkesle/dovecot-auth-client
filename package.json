@@ -1,0 +1,37 @@
+{
+  "name": "dovecot-auth",
+  "version": "0.1.0",
+  "description": "Dovecot authentication socket protocol client for Node",
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.js",
+  "scripts": {
+    "build": "rollup -c",
+    "test": "vitest"
+  },
+  "exports": {
+    "import": "./dist/index.js",
+    "require": "./dist/index.cjs"
+  },
+  "keywords": [
+    "dovecot",
+    "smtps",
+    "imap",
+    "auth",
+    "mailutils"
+  ],
+  "author": "Josh Kesler <josh@joshkesler.com>",
+  "license": "MIT",
+  "type": "module",
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^28.0.3",
+    "@rollup/plugin-node-resolve": "^16.0.1",
+    "@rollup/plugin-terser": "^0.4.4",
+    "@rollup/plugin-typescript": "^12.1.2",
+    "@types/node": "^22.15.29",
+    "rollup": "^4.41.1",
+    "rollup-plugin-dts": "^6.2.1",
+    "tslib": "^2.8.1",
+    "typescript": "^5.8.3",
+    "vitest": "^3.2.1"
+  }
+}
